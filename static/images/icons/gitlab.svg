@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Group</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+<!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+ <title>Group</title>
+ <desc>Created with Sketch.</desc>
+ <g transform="matrix(.60795 0 0 .60795 .1281 5.029)" fill="none" fill-rule="evenodd">
+  <g id="Group">
+   <path d="m105.06 193.66 38.64-118.92h-77.28z" fill="#e24329"/>
+   <g fill="#fc6d26">
+    <path d="m105.06 193.65-38.64-118.92h-54.153z"/>
+   </g>
+   <path d="m12.268 74.734-11.742 36.139c-1.071 3.296 0.102 6.907 2.906 8.944l101.63 73.838z" fill="#fca326"/>
+   <path d="m12.268 74.734h54.153l-23.273-71.625c-1.197-3.686-6.411-3.685-7.608 0z" fill="#e24329"/>
+   <path d="m105.06 193.65 38.64-118.92h54.153z" fill="#fc6d26"/>
+   <path d="m197.85 74.734 11.742 36.139c1.071 3.296-0.102 6.907-2.906 8.944l-101.63 73.838z" fill="#fca326"/>
+   <path d="m197.85 74.734h-54.153l23.273-71.625c1.197-3.686 6.411-3.685 7.608 0z" fill="#e24329"/>
+  </g>
+ </g>
+</svg>

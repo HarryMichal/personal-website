@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>HarryPhoon</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./static/stylesheets/styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <ul class="nav-links"><a class="nav-link" href="./index.html"><li>Ondřej Míchal</li></a></ul>
+      <ul class="nav-links nav-links-left">
+        <a class="nav-link" href="./projects.html"><li>Projects</li></a>
+        <a class="nav-link" href="./manga.html"><li>M&A</li></a>
+      </ul>
+      <ul class="nav-links nav-links-right">
+        <a class="nav-link" href="./contact.html"><li>Kontakt</li></a>
+      </ul>
+    </div>
+  </nav>
+  <header class="h3" id="home">
+    <div class="header-container">
+      <div class="header-blocktext">
+        <h1>Projects</h1>
+        <h2>My projects I had already finished working on, I'm working on or I plan to work on.</h2>
+      </div>
+    </div>
+    <div class="proceed-container proceed-header">
+      <a class="proceed-link header-link" href="#finished"><i class="material-icons">keyboard_arrow_down</i>Finished projects</a>
+      <a class="proceed-link header-link" href="#wip"><i class="material-icons">keyboard_arrow_down</i>WIP projects</a>
+      <a class="proceed-link header-link" href="#planned"><i class="material-icons">keyboard_arrow_down</i>Planned projects</a>
+    </div>
+  </header>
+  <main>
+    <section class="grid-list" id="finished">
+      <h2>"Finished" projects</h2>
+      <p>These are projects I mark as "finished" for the moment. There is always a chance that I'll revisit them in the future.</p>
+      <article class="grid-list-item project-item">
+        <div class="project-item-head">
+          <h3>Organist's Companion</h3>
+          <a href="https://gitlab.com/HarryPhoon/organists-companion"><img class="sm-icon sm-repo-icon" src="./static/images/icons/gitlab.svg"></a>
+          <img class="sm-icon" src="./static/images/icons/js.svg">
+          <img class="sm-icon" src="./static/images/icons/node.svg">
+          <img class="sm-icon" src="./static/images/icons/react.svg">
+        </div>
+        <div>
+          <p>Some text about this.</p>
+        </div>
+      </article>
+      <article class="grid-list-item project-item">
+        <div class="project-item-head">
+          <h3>Simple elections parser</h3>
+          <a href="https://gitlab.com/HarryPhoon/simple-elections-parser-2018"><img class="sm-icon sm-repo-icon" src="./static/images/icons/gitlab.svg"></a>
+          <img class="sm-icon" src="./static/images/icons/node.svg">
+        </div>
+        <div>
+          <p>Some text about this.</p>
+        </div>
+      </article>
+      <div class="proceed-container">
+        <a class="proceed-link" href="#home"><i class="material-icons">keyboard_arrow_up</i>Home</a>
+        <a class="proceed-link" href="#wip"><i class="material-icons">keyboard_arrow_down</i>WIP projects</a>
+      </div>
+    </section>
+    <section class="grid-list" id="wip">
+      <h2>Work-in-process projects</h2>
+      <p>I'm currently working on these projects while taking into account my free time and current mood.</p>
+      <div class="empty-section">
+        <img src="./static/images/face-crying-light.svg" alt="The sounds of silence">
+        <p>It's empty!</p>
+      </div>
+      <div class="proceed-container">
+        <a class="proceed-link" href="#finished"><i class="material-icons">keyboard_arrow_up</i>Finished projects</a>
+        <a class="proceed-link" href="#planned"><i class="material-icons">keyboard_arrow_down</i>Planned projects</a>
+      </div>
+    </section>
+    <section class="grid-list" id="planned">
+      <h2>Planned projects</h2>
+      <p>These are projects I currently don't have time or motivation to do. They are mostly just ideas but sometimes I try to decide what language and technology I want to use to do them before I even start them.</p>
+      <article class="grid-list-item project-item">
+        <div class="project-item-head">
+          <h3>Library manager</h3>
+          <img class="sm-icon" src="./static/images/icons/js.svg">
+          <img class="sm-icon" src="./static/images/icons/node.svg">
+          <img class="sm-icon" src="./static/images/icons/react.svg">
+        </div>
+        <div>
+          <p>Some text about this.</p>
+        </div>
+      </article>
+      <article class="grid-list-item project-item">
+        <div class="project-item-head">
+          <h3>Timetable generator</h3>
+          <img class="sm-icon" src="./static/images/icons/js.svg">
+        </div>
+        <div>
+          <p>Some text about this.</p>
+        </div>
+      </article>
+      <div class="proceed-container">
+        <a class="proceed-link" href="#wip"><i class="material-icons">keyboard_arrow_up</i>WIP projects</a>
+        <a class="proceed-link" href="#home"><i class="material-icons">keyboard_arrow_up</i>Back to Top</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <ul>
+        <a href="https://github.com/HarryPhoon/"><li>Github</li></a>
+        <a href="https://gitlab.com/HarryPhoon"><li>GitLab</li></a>
+        <a href="https://discord.gg/3W2S9Ng"><li>Discord</li></a>
+        <a href="https://twitter.com/MartyHarry"><li>Twitter</li></a>
+        <a href="mailto:harrymichal@seznam.cz"><li>Email</li></a>
+      </ul>
+      <p>Feel free to get in touch with me. I'll be happy to have a talk :)</p>
+    </div>
+  </footer>
+</body>
+</html>

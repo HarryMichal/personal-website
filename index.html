@@ -4,37 +4,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>HarryPhoon</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./static/stylesheets/styles.css">
 </head>
 <body>
-  <header>
-    <img src="./static/images/my-face.jpg" alt="My face">
-    <div class="header-block">
-      <h1>Ondřej Míchal</h1>
-      <h2>blablablablabalbalbalbabalablabbalablabalbalbld</h2>
-    </div>
-  </header>
   <nav>
     <div class="nav-container">
-      <a class="nav-link" href="./index.html">Ondřej Míchal</a>
+      <ul class="nav-links"><a class="nav-link" href="./index.html"><li>Ondřej Míchal</li></a></ul>
       <ul class="nav-links nav-links-left">
-        <li><a class="nav-link">Projekty</a></li>
+        <a class="nav-link" href="./projects.html"><li>Projects</li></a>
+        <a class="nav-link" href="./manga.html"><li>M&A</li></a>
       </ul>
       <ul class="nav-links nav-links-right">
-        <li><a class="nav-link">Kontakt</a></li>
+        <a class="nav-link" href="./contact.html"><li>Kontakt</li></a>
       </ul>
     </div>
   </nav>
+  <header id="home">
+    <div class="header-container">
+      <img src="./static/images/my-face.jpg" alt="My face">
+      <div class="header-blocktext">
+        <h1>Ondřej Míchal</h1>
+        <h2>a lazy high school scholar with passion for music, tech and programming</h2>
+      </div>
+    </div>
+    <div class="proceed-container proceed-header">
+      <a class="proceed-link header-link" href="#about"><i class="material-icons">keyboard_arrow_down</i>About me</a>
+      <a class="proceed-link header-link" href="#hobbies"><i class="material-icons">keyboard_arrow_down</i>My hobbies</a>
+      <a class="proceed-link header-link" href="#skills"><i class="material-icons">keyboard_arrow_down</i>My skills</a>
+    </div>
+  </header>
   <main>
-    <section class="sec-about">
-      <p>Incididunt proident deserunt ex do ea est adipisicing ullamco cillum officia in. Dolore nulla cillum elit ad et adipisicing Lorem ipsum amet ullamco aute cillum aute ea consequat reprehenderit enim. Occaecat veniam proident aliquip tempor deserunt dolore non. Officia dolore minim adipisicing ex consequat ut laborum commodo commodo voluptate. Voluptate proident velit duis reprehenderit incididunt velit nisi excepteur duis culpa velit est voluptate et dolor Lorem. Ut veniam consectetur laborum qui deserunt adipisicing deserunt amet officia. Aute enim commodo et officia tempor deserunt voluptate voluptate laborum veniam ad commodo. Occaecat et officia occaecat aliquip sit incididunt non mollit excepteur proident proident aliqua.</p>
+    <section id="about">
+      <h2>About me</h2>
+      <p>
+        Hi, my name is Ondřej Míchal and I'm a high school scholar.
+      </p>
+      <div class="proceed-container">
+        <a class="proceed-link" href="#home"><i class="material-icons">keyboard_arrow_up</i>Home</a>
+        <a class="proceed-link" href="#hobbies"><i class="material-icons">keyboard_arrow_down</i>My hobbies</a>
+      </div>
     </section>
-    <section class="sec-skills">
-      <p>Minim ea irure dolore consequat incididunt excepteur laboris laboris adipisicing cupidatat laborum magna deserunt cupidatat. Cillum dolor velit fugiat commodo cillum irure voluptate reprehenderit adipisicing laborum nostrud officia sint id ea ut aliqua. Dolor eu amet reprehenderit id do ea magna tempor aliqua magna irure tempor quis. Labore magna voluptate consectetur do consectetur qui cupidatat exercitation dolor dolore ullamco. Aliquip esse consequat velit minim in veniam do dolor dolore sint ad esse. Aliqua veniam sit consequat et ex eu aliqua non esse culpa enim nisi.</p>
+    <section id="hobbies">
+      <h2>My hobbies</h2>
+      <p>
+        Well, this is tough... I have fair amount of hobbies so this will be fun to write about :).
+      </p>
+      <div class="proceed-container">
+        <a class="proceed-link" href="#about"><i class="material-icons">keyboard_arrow_up</i>About me</a>
+        <a class="proceed-link" href="#skills"><i class="material-icons">keyboard_arrow_down</i>My skills</a>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>My skills</h2>
+      <article>
+        <h3>Programming languages</h3>
+          <article>
+            <h4>JavaScript</h4>
+            <p>
+              JS is my first language I seriously tried to learn. Before that I was only messing around a whole bunch of languages unable to choose or keep learning when I started (maximally made few scripts and then lost motivation).
+            </p>
+            <p>
+              At the beginning of learning JS I made a poor choice and started to create a fullstack web app. Thankfully I finally finished the project and have the knowledge to do much more and more efficiently.
+            </p>
+            <ul class="list-row">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Restify</li>
+              <li>React</li>
+            </ul>
+          </article>
+          <article>
+            <h4>Python</h4>
+            <p>
+              Python is one of the languages I've already worked with, made few scripts with but haven't really tried to understand the general design of it. It is definitely the next language I want to learn more in depth.
+            </p>
+          </article>
+      </article>
+      <article>
+        <h3>Software</h3>
+          <article>
+            <h4>GIMP</h4>
+            <p>
+              I use GIMP quite often. From simple photo editing to creating posters and another "art". I feel quite confident that I can use almost all major tools in the toolbox and also few minor ones.
+            </p>
+          </article>
+      </article>
+      <article>
+        <h3>Languages</h3>
+        <table class="">
+          <tr>
+            <td>Czech</td>
+            <td>Native</td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>Technical English</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>German</td>
+            <td>Beginner</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <h3>Music</h3>
+        <p>
+          Since I was a kid I learned to play many musical instruments. And I'm still open to learning some more.
+        </p>
+        <ul class="list-row">
+          <li>Piano</li>
+          <li>Accoustic guitar</li>
+          <li>Bass guitar</li>
+          <li>Flutes</li>
+          <li>Organs</li>
+        </ul>
+        <p>
+          Also I like to sing :).
+        </p>
+      </article>
+      <div class="proceed-container">
+        <a class="proceed-link header-link" href="#hobbies"><i class="material-icons">keyboard_arrow_up</i>My hobbies</a>
+        <a class="proceed-link" href="#home"><i class="material-icons">keyboard_arrow_up</i>Back to Top</a>
+      </div>
     </section>
   </main>
   <footer>
-    <a href="mailto:harrymichal@seznam.cz">Ondřej Míchal</a>
+    <div class="footer-container">
+      <ul>
+        <a href="https://github.com/HarryPhoon/"><li>Github</li></a>
+        <a href="https://gitlab.com/HarryPhoon"><li>GitLab</li></a>
+        <a href="https://discord.gg/3W2S9Ng"><li>Discord</li></a>
+        <a href="https://twitter.com/MartyHarry"><li>Twitter</li></a>
+        <a href="mailto:harrymichal@seznam.cz"><li>Email</li></a>
+      </ul>
+      <p>
+        Feel free to get in touch with me. I'll be happy to have a talk :)
+      </p>
+    </div>
   </footer>
 </body>
 </html>

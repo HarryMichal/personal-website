@@ -141,7 +141,6 @@ img {
 
 .header-blocktext {
   max-width: 35em;
-  padding-left: 2em;
 }
 
 .header-blocktext h1 {
@@ -332,6 +331,10 @@ footer ul li {
   padding: 0 0.5em;
 }
 
+footer ul img {
+  width: 32px;
+}
+
 .footer-container {
   max-width: 30em;
   display: flex;
@@ -349,7 +352,7 @@ footer ul li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 1em;
+  margin: 1em 0 0 0;
 }
 
 .proceed-header {

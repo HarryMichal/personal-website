@@ -3,19 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "NODE_ENV='production'node ./bin/www",
+    "dev": "NODE_ENV='development' DEBUG=my-site:* nodemon ./bin/www",
     "test": "mocha"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
+    "debug": "^2.6.9",
     "express": "~4.16.0",
+    "g": "^2.0.1",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.3"
   },
   "devDependencies": {
     "mocha": "^5.1.1",
+    "nodemon": "^1.18.9",
     "supertest": "^3.0.0"
   }
 }

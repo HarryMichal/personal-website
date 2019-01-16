@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
+html {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  z-index: 1000;
+}
+
+.nav-topbar {
+  display: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #535353;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-topbar-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-topbar-links li {
+  padding: 0 0.5em; 
+}
+
+main {
+  padding: 0.5em;
 }
